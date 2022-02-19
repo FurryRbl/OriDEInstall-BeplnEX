@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "dotne"
+  - package-ecosystem: "dotnet"
     directory: "/"
     schedule:
       interval: "daily"
