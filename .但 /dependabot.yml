@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "CLI"
+  - package-ecosystem: "dotne"
     directory: "/"
     schedule:
       interval: "daily"
