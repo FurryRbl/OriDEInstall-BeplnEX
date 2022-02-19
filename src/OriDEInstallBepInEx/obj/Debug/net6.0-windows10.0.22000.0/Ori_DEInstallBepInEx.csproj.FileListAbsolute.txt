@@ -1,0 +1,16 @@
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.csproj.AssemblyReference.cache
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.Gui.Main.GuiMain.resources
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.csproj.GenerateResource.cache
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.AssemblyInfoInputs.cache
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.AssemblyInfo.cs
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.csproj.CoreCompileInputs.cache
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\bin\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.exe
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\bin\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.deps.json
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\bin\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.runtimeconfig.json
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\bin\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.dll
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\bin\Debug\net6.0-windows10.0.22000.0\Microsoft.Windows.SDK.NET.dll
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\bin\Debug\net6.0-windows10.0.22000.0\WinRT.Runtime.dll
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.csproj.CopyComplete
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.dll
+E:\Ori_DEInstallBepInEx\src\Ori_DEInstallBepInEx\obj\Debug\net6.0-windows10.0.22000.0\Ori_DEInstallBepInEx.genruntimeconfig.cache
