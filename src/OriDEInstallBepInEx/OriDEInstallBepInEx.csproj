@@ -11,6 +11,7 @@
     <DebugType>embedded</DebugType>
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+    <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,11 +30,12 @@
     <EmbeddedResource Include="Resources\BepInExIcon.png" />
     <EmbeddedResource Include="Resources\BepInEx\BepInEx_x64.zip" />
     <EmbeddedResource Include="Resources\BepInEx\BepInEx_x86.zip" />
+    <EmbeddedResource Include="Resources\mono\DebugMono.dll" />
+    <EmbeddedResource Include="Resources\mono\GameMono.dll" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resources\mono\DebugMono.dll" />
-    <EmbeddedResource Include="Resources\mono\GameMono.dll" />
+    <PackageReference Include="System.IO.Compression.ZipFile" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,21 +44,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Update="ResourcesMain.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>ResourcesMain.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="ResourcesMain.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResourcesMain.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

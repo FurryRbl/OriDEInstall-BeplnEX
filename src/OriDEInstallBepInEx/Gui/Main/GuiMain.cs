@@ -1,4 +1,6 @@
-﻿namespace OriDEInstallBepInEx
+﻿using System.Diagnostics;
+
+namespace OriDEInstallBepInEx
 {
     public partial class GuiMain : Form
     {
@@ -18,11 +20,17 @@
             Reinstall.Enabled = false;
             Remove.Enabled = false;
             About.Enabled = false;
-            Core.Install(); //安装类
+            Core.Install(); //运行安装方法
             Install.Enabled = true; //启用按钮
             Reinstall.Enabled = true;
             Remove.Enabled = true;
             About.Enabled = true;
+        }
+
+        private void GuiMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Process.GetCurrentProcess().Kill(); //这个代码没有什么，只是为了加快程序退出所写的.
+
         }
     }
 }

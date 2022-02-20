@@ -26,5 +26,15 @@ namespace OriDEInstallBepInEx.Gui.About
         {
             System.Diagnostics.Process.Start("explorer.exe", "https://github.com/FurryRbl/OriDEInstallBepInEx");
         }
+
+        private void QrResUrl_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer.exe", "https://juejin.cn/post/6989143365862293534");
+        }
+
+        private void SharpZipLibUrl_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer.exe", "https://github.com/icsharpcode/SharpZipLib");
+        }
     }
 }

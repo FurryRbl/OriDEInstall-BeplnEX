@@ -37,6 +37,10 @@
             this.OriDEInstallBepInExTest3 = new System.Windows.Forms.Label();
             this.OriDEInstallBepInExTest2 = new System.Windows.Forms.Label();
             this.OriDEInstallBepInExTest1 = new System.Windows.Forms.Label();
+            this.QrRes = new System.Windows.Forms.Label();
+            this.QrResUrl = new System.Windows.Forms.Label();
+            this.SharpZipLibUrl = new System.Windows.Forms.Label();
+            this.SharpZipLib = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Bepln)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OriDEInstallBepln)).BeginInit();
             this.SuspendLayout();
@@ -117,11 +121,57 @@
             this.OriDEInstallBepInExTest1.TabIndex = 6;
             this.OriDEInstallBepInExTest1.Text = "OriDEInstallBepInEx";
             // 
+            // QrRes
+            // 
+            this.QrRes.AutoSize = true;
+            this.QrRes.Location = new System.Drawing.Point(735, 10);
+            this.QrRes.Name = "QrRes";
+            this.QrRes.Size = new System.Drawing.Size(83, 17);
+            this.QrRes.TabIndex = 9;
+            this.QrRes.Text = "嵌入资源释放:";
+            // 
+            // QrResUrl
+            // 
+            this.QrResUrl.AutoSize = true;
+            this.QrResUrl.BackColor = System.Drawing.SystemColors.Control;
+            this.QrResUrl.ForeColor = System.Drawing.Color.Blue;
+            this.QrResUrl.Location = new System.Drawing.Point(809, 9);
+            this.QrResUrl.Name = "QrResUrl";
+            this.QrResUrl.Size = new System.Drawing.Size(265, 17);
+            this.QrResUrl.TabIndex = 10;
+            this.QrResUrl.Text = "https://juejin.cn/post/6989143365862293534";
+            this.QrResUrl.Click += new System.EventHandler(this.QrResUrl_Click);
+            // 
+            // SharpZipLibUrl
+            // 
+            this.SharpZipLibUrl.AutoSize = true;
+            this.SharpZipLibUrl.BackColor = System.Drawing.SystemColors.Control;
+            this.SharpZipLibUrl.ForeColor = System.Drawing.Color.Blue;
+            this.SharpZipLibUrl.Location = new System.Drawing.Point(809, 27);
+            this.SharpZipLibUrl.Name = "SharpZipLibUrl";
+            this.SharpZipLibUrl.Size = new System.Drawing.Size(265, 17);
+            this.SharpZipLibUrl.TabIndex = 12;
+            this.SharpZipLibUrl.Text = "https://github.com/icsharpcode/SharpZipLib";
+            this.SharpZipLibUrl.Click += new System.EventHandler(this.SharpZipLibUrl_Click);
+            // 
+            // SharpZipLib
+            // 
+            this.SharpZipLib.AutoSize = true;
+            this.SharpZipLib.Location = new System.Drawing.Point(735, 28);
+            this.SharpZipLib.Name = "SharpZipLib";
+            this.SharpZipLib.Size = new System.Drawing.Size(80, 17);
+            this.SharpZipLib.TabIndex = 11;
+            this.SharpZipLib.Text = "SharpZipLib:";
+            // 
             // AboutMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(734, 411);
+            this.ClientSize = new System.Drawing.Size(1134, 411);
+            this.Controls.Add(this.SharpZipLibUrl);
+            this.Controls.Add(this.SharpZipLib);
+            this.Controls.Add(this.QrResUrl);
+            this.Controls.Add(this.QrRes);
             this.Controls.Add(this.OriDEInstallBepInExTest3);
             this.Controls.Add(this.OriDEInstallBepInExTest2);
             this.Controls.Add(this.OriDEInstallBepInExTest1);
@@ -150,5 +200,9 @@
         private Label OriDEInstallBepInExTest3;
         private Label OriDEInstallBepInExTest2;
         private Label OriDEInstallBepInExTest1;
+        private Label QrRes;
+        private Label QrResUrl;
+        private Label SharpZipLibUrl;
+        private Label SharpZipLib;
     }
 }

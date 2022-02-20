@@ -47,6 +47,7 @@
             // 
             // Remove
             // 
+            this.Remove.Enabled = false;
             this.Remove.Location = new System.Drawing.Point(700, 200);
             this.Remove.Name = "Remove";
             this.Remove.Size = new System.Drawing.Size(100, 100);
@@ -56,6 +57,7 @@
             // 
             // Reinstall
             // 
+            this.Reinstall.Enabled = false;
             this.Reinstall.Location = new System.Drawing.Point(400, 200);
             this.Reinstall.Name = "Reinstall";
             this.Reinstall.Size = new System.Drawing.Size(100, 100);
@@ -85,6 +87,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GuiMain";
             this.Text = "Ori DE Install BepInEx";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GuiMain_FormClosing);
             this.ResumeLayout(false);
 
         }
